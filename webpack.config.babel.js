@@ -43,9 +43,10 @@ const settings = {
 	devServer: {
 		contentBase: path.resolve(__dirname, 'dist'),
 		historyApiFallback: true,
-		hot: true,
+		hot: false,
 		inline: true,
 	},
+	devtool: 'inline-source-map'
 }
 
 export default settings
