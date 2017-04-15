@@ -1,7 +1,9 @@
-import React from 'react'
+import React, {PropTypes, Component} from 'react'
 
-const Root = () => (
-	<div>Light Weight React Starter Code</div>
-)
-
-export default Root
+export default class Root extends Component {
+	render() {
+		return (
+			<div>LightReacterStarterCode</div>
+		)
+	}
+}
