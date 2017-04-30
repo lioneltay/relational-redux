@@ -9,3 +9,20 @@ ReactDOM.render(
 	document.querySelector('#app')
 )
 
+
+function* generator() {
+	yield 1
+	yield 3
+	yield 5
+}
+
+for (let item of generator()) {
+	console.log('generators! woot!', item)
+}
+
+async function test() {
+	return 73
+}
+
+test()
+	.then(val => console.log('async functions woot!', val))

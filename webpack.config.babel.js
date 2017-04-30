@@ -4,9 +4,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin'
 import webpack from 'webpack'
 
 const settings = {
-  entry: {
-		bundle: './src/index.js'
-	},
+  entry: ['babel-polyfill', './src/index.js'],
   resolve: {
 		alias: {
 			styles: path.join(__dirname, '/src/styles'),
