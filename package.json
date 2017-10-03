@@ -1,5 +1,5 @@
 {
-  "name": "LightReactStarterCode",
+  "name": "relational-redux",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lionel Tay",
   "license": "ISC",
   "dependencies": {
     "react": "^15.4.2",
